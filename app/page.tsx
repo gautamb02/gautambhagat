@@ -1,6 +1,5 @@
 'use client';
 
-import { useEffect, useState } from "react";
 import Profile from "./components/profile";
 import Overview from "./components/overview";
 
