@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaLinkedin, FaGithub, FaTwitter, FaMailchimp } from "react-icons/fa";
+import { FaLinkedin, FaMailchimp } from "react-icons/fa";
 
 export default function Profile() {
   return (

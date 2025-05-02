@@ -10,7 +10,7 @@ export default function Overview() {
       setCurrentWordIndex((prev) => (prev + 1) % words.length);
     }, 3000); // Change every 3 seconds
     return () => clearInterval(interval);
-  }, []);
+  }, [words.length]);
 
 
   return (

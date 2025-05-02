@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -9,7 +10,7 @@ type NavItemProps = {
 
 const NavItem: React.FC<NavItemProps> = ({ src, label, link }) => (
   <Link href={link} className="group relative flex flex-col items-center cursor-pointer">
-    <img
+    <Image
       src={src}
       alt={label}
       className="w-5 h-5 group-hover:opacity-70 transition duration-300"
